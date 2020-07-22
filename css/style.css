@@ -11,7 +11,7 @@ body {
 
 /*Navbar*/
 .nav-bg {
-  background: #343a40 !important;
+  background: black !important;
   padding: 0px 50px !important;
 }
 
@@ -70,7 +70,7 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background: #333333;
+  background: #000000;
   color: #ffffff;
   text-align: center;
   padding: 10px !important;
