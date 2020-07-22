@@ -1,0 +1,97 @@
+body{
+    background: #f4f4f4;
+}
+
+
+/*Navbar*/
+.nav-bg{
+    background: #343A40 !important;
+    padding: 0px 50px  !important;
+}
+
+.navbar{
+    min-height: 33px !important;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-nav .nav-item .nav-link .navbar-brand{
+    padding-top:  6px !important;
+    padding-bottom: 0 !important;
+    height: 33px !important;
+    margin: 0 20px !important;
+}
+
+/* Header */
+#header{
+    background: #333333;
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+#header .create{
+    padding-top: 20px !important;
+
+}
+
+/*breadcrumb*/
+.breadcrumb{
+    background: #cccccc;
+    color: #333333;
+}
+.breadcrumb a{
+    color: #333333;
+}
+
+/*list group*/
+.main-color-bg{
+    background: #343A40 !important;
+    color: #ffffff;
+}
+
+/*progress*/
+.well{
+
+    background: #FFFFFF;
+    padding: 16px;
+    border: 1px solid #dbdbdb;
+}
+
+.progress-bar{
+    background: #6C757D;
+
+}
+
+/*Footer*/
+#footer{
+    background: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+
+}
+
+#login{
+    background: #ffffff ;
+    padding: 50px;
+    border: 1px solid #dbdbdb ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
