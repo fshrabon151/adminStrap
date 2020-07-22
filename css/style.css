@@ -1,106 +1,83 @@
-body{
-    background: #f4f4f4;
+body {
+  background: #f4f4f4;
 }
 
-.btn-color{
-    background: #6C757D;
-    color: #ffffff;
-    margin: 0;
-    padding: 0 5px;
+.btn-color {
+  background: #6c757d;
+  color: #ffffff;
+  margin: 0;
+  padding: 0 5px;
 }
-
 
 /*Navbar*/
-.nav-bg{
-    background: #343A40 !important;
-    padding: 0px 50px  !important;
+.nav-bg {
+  background: #343a40 !important;
+  padding: 0px 50px !important;
 }
 
-.navbar{
-    min-height: 33px !important;
-    margin-bottom: 0;
-    border-radius: 0;
+.navbar {
+  min-height: 33px !important;
+  margin-bottom: 0;
+  border-radius: 0;
 }
 
-.navbar-nav .nav-item .nav-link .navbar-brand{
-    padding-top:  6px !important;
-    padding-bottom: 0 !important;
-    height: 33px !important;
-    margin: 0 20px !important;
+.navbar-nav .nav-item .nav-link .navbar-brand {
+  padding-top: 6px !important;
+  padding-bottom: 0 !important;
+  height: 33px !important;
+  margin: 0 20px !important;
 }
 
 /* Header */
-#header{
-    background: #333333;
-    color: #ffffff;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
+#header {
+  background: #333333;
+  color: #ffffff;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
 }
-#header .create{
-    padding-top: 20px !important;
-
+#header .create {
+  padding-top: 20px !important;
 }
 
 /*breadcrumb*/
-.breadcrumb{
-    background: #cccccc;
-    color: #333333;
+.breadcrumb {
+  background: #cccccc;
+  color: #333333;
 }
-.breadcrumb a{
-    color: #333333;
+.breadcrumb a {
+  color: #333333;
 }
 
 /*list group*/
-.main-color-bg{
-    background: #343A40 !important;
-    color: #ffffff;
+.main-color-bg {
+  background: #343a40 !important;
+  color: #ffffff;
 }
 
 /*progress*/
-.well{
-
-    background: #FFFFFF;
-    padding: 16px;
-    border: 1px solid #dbdbdb;
+.well {
+  background: #ffffff;
+  padding: 16px;
+  border: 1px solid #dbdbdb;
 }
 
-.progress-bar{
-    background: #6C757D;
-
+.progress-bar {
+  background: #6c757d;
 }
 
 /*Footer*/
-#footer{
-    background: #333333;
-    color: #ffffff;
-    text-align: center;
-    padding: 30px;
-    margin-top: 30px;
-    position: fixed;
-   bottom: 0;
-   width: 100%;
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px !important;
 }
 
-#login{
-    background: #ffffff ;
-    padding: 50px;
-    border: 1px solid #dbdbdb ;
+#login {
+  background: #ffffff;
+  padding: 50px;
+  border: 1px solid #dbdbdb;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
