@@ -1,12 +1,18 @@
 body {
   background: #f4f4f4;
+  color: #004445;
 }
 
 .btn-color {
-  background: #6c757d;
+  background: #004445;
   color: #ffffff;
   margin: 0;
   padding: 0 5px;
+}
+
+.color-bootle-green {
+  background: #004445;
+  color: #ffffff;
 }
 
 /*Navbar*/
@@ -30,7 +36,7 @@ body {
 
 /* Header */
 #header {
-  background: #333333;
+  background: #021c1e;
   color: #ffffff;
   padding-bottom: 10px;
   margin-bottom: 15px;
@@ -42,15 +48,15 @@ body {
 /*breadcrumb*/
 .breadcrumb {
   background: #cccccc;
-  color: #333333;
+  color: #021c1e;
 }
 .breadcrumb a {
-  color: #333333;
+  color: #021c1e;
 }
 
 /*list group*/
 .main-color-bg {
-  background: #343a40 !important;
+  background: #004445 !important;
   color: #ffffff;
 }
 
@@ -62,7 +68,7 @@ body {
 }
 
 .progress-bar {
-  background: #6c757d;
+  background: #004445;
 }
 
 /*Footer*/
@@ -80,4 +86,8 @@ body {
   background: #ffffff;
   padding: 50px;
   border: 1px solid #dbdbdb;
+}
+
+#main {
+  min-height: 100vh;
 }
