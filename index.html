@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 
 
     <!-- Custom styles for this template -->
@@ -139,32 +141,65 @@
                             <div class="container row text-center">
                                 <div class="col-md-3">
                                     <div class="well">
-                                        <h4> <i class="fa fa-user"></i> 203</h4>
+                                        <h4> <i class="fa fa-user"></i> 2,478</h4>
                                         <h6>Users</h6>
                                     </div>
                                 </div>
 
                                 <div class="col-md-3">
                                     <div class="well">
-                                        <h4> <i class="fa fa-list-alt"></i> 12</h4>
+                                        <h4> <i class="fa fa-list-alt"></i> 734</h4>
                                         <h6>Pages</h6>
                                     </div>
                                 </div>
 
                                 <div class="col-md-3">
                                     <div class="well">
-                                        <h4> <i class="fa fa-pencil"></i> 33</h4>
+                                        <h4> <i class="fa fa-pencil"></i> 5,267</h4>
                                         <h6>Posts</h6>
                                     </div>
                                 </div>
 
                                 <div class="col-md-3">
                                     <div class="well">
-                                        <h4> <i class="fa fa-bar-chart"></i> 12,334</h4>
+                                        <h4> <i class="fa fa-bar-chart"></i> 7,584</h4>
                                         <h6>Visitors</h6>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <hr class="mx-5">
+
+   
+                        <div class="container p-5">
+
+                            <h4>Graphical Representation</h4>
+                            <canvas id="bar-chart" width="800" height="450"></canvas>
+                    
+                            <script>
+                                // Bar chart
+                                new Chart(document.getElementById("bar-chart"), {
+                                    type: 'bar',
+                                    data: {
+                                        labels: ["User", "Pages", "Posts", "Visitors"],
+                                        datasets: [
+                                            {
+                                                label: "Total count ",
+                                                backgroundColor: ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9"],
+                                                data: [2478, 734, 5267, 7584]
+                                            }
+                                        ]
+                                    },
+                                    options: {
+                                        legend: { display: false },
+                                        title: {
+                                            display: true,
+                                            text: 'Generated traffic in the website'
+                                        }
+                                    }
+                                });
+                            </script>
+                    
                         </div>
                     </div>
 
@@ -220,6 +255,9 @@
                         </div>
                     </div>
 
+
+
+        
                 </div>
             </div>
         </div>
@@ -271,6 +309,8 @@
             </form>
         </div>
     </div>
+
+    
 
     <footer id="footer">
         <p>Copyright AdminStrap, &copy; 2020</p>
